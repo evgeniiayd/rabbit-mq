@@ -420,9 +420,6 @@ javascriptconst statusBadge = report.partial
 ```
 <img width="1125" height="782" alt="image" src="https://github.com/user-attachments/assets/857e0819-6b7b-40cf-a9bc-b8fc60e533f0" />
 
-![Uploading image.png…]()
-
-
 ---
 
 ### Задание 5 (Сложное): Переход на WebSockets для Real-time обновлений
