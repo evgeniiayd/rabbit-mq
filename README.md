@@ -149,6 +149,29 @@ docker --version
 ```
 Docker version 27.4.0, build bde2b89
 ```
+
+Запуск контейнера
+```
+docker-compose up -d
+```
+Пересобрать проекты
+```
+cd weather-api-service && mvn clean package -DskipTests
+cd weather-aggregator-service && mvn clean package -DskipTests
+cd weather-consumer-service && mvn clean package -DskipTests
+```
+Запуск проектов
+```
+# Терминал 1 - Aggregator
+cd weather-aggregator-service && mvn spring-boot:run
+
+# Терминал 2 - Consumer
+cd weather-consumer-service && mvn spring-boot:run
+
+# Терминал 3 - API
+cd weather-api-service && mvn spring-boot:run
+```
+
 ## Базовая реализация
 ### Компоненты системы
 #### Weather API Service (порт 8080)
