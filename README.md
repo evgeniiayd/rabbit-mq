@@ -575,6 +575,7 @@ weather-aggregator-system/
 │   └── js/app.js
 └── docker-compose.yml
 
+<img width="1266" height="908" alt="image" src="https://github.com/user-attachments/assets/fb165edf-adc6-4728-931f-ee2917d0025a" />
 
 
 <img width="1076" height="334" alt="image" src="https://github.com/user-attachments/assets/a6ea1edf-3d91-431f-b914-911cd6c65e94" />
